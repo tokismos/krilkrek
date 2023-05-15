@@ -1,13 +1,12 @@
+import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
-import { View } from "react-native";
-
-import FirstScreen from "src/components/FirstScreen";
+import RootNavigator from "src/navigation/RootNavigator";
 
 function App(): JSX.Element {
 	return (
-		<View className="flex-1 bg-orange-500 items-center justify-center  ">
-			<FirstScreen />
-		</View>
+		<NavigationContainer>
+			<RootNavigator />
+		</NavigationContainer>
 	);
 }
 
