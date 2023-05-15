@@ -1,14 +1,8 @@
-import { View, Text } from "react-native";
+import { Text } from "react-native";
 import React from "react";
-import SecondScreen from "src/Second";
 
 const FirstScreen = (): JSX.Element => {
-	return (
-		<View>
-			<Text>FirstScreen</Text>
-			<SecondScreen />
-		</View>
-	);
+	return <Text className="text-3xl p-2">Good Luck bro ! !</Text>;
 };
 
 export default FirstScreen;
